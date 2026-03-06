@@ -21,6 +21,32 @@
           past entries — all saved in your browser.
         </p>
       </section>
+
+      <section>
+        <h2>Log Your Mood</h2>
+        <form id="mood-form">
+          <label for="mood">How are you feeling?</label>
+          <select id="mood" name="mood" required>
+            <option value="">-- Select a mood --</option>
+            <option value="Happy">Happy</option>
+            <option value="Calm">Calm</option>
+            <option value="Sad">Sad</option>
+            <option value="Stressed">Stressed</option>
+            <option value="Anxious">Anxious</option>
+            <option value="Excited">Excited</option>
+          </select>
+
+          <label for="note">Notes (optional)</label>
+          <textarea id="note" name="note" rows="3" placeholder="Add a note about your day..."></textarea>
+
+          <button type="submit">Save Entry</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Mood History</h2>
+        <ul id="entry-list"></ul>
+      </section>
     </main>
 
     <script src="script.js"></script>
