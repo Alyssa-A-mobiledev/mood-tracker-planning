@@ -15,7 +15,7 @@ The goal of the app is to help users reflect on emotional patterns over time by 
 - HTML — Page structure and content
 - CSS — Styling and layout
 - JavaScript — App logic and localStorage interaction
-- localStorage - To store mood entry
+- Firebase Firestore - To store mood entry data
 
 ## Deployment
 This project runs entirely in the browser and will be deployed using Netlify.
